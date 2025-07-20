@@ -36,4 +36,19 @@ body {
     width: 90vw;
     max-width: 1000px;
     margin-top: 0.5em;
+    /* No rotation by default */
+}
+
+/* Rotate only on small screens */
+@media (max-width: 600px) {
+    #userInput {
+        font-size: 1.2em;
+        width: 90vw;
+    }
+    #output {
+        font-size: 8vw;      /* Keep the same size */
+        width: 98vw;
+        transform: rotate(-90deg);
+        transform-origin: center;
+    }
 }
