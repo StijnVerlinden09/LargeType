@@ -30,13 +30,13 @@ body {
 }
 
 #output {
-    font-size: 8vm;
+    font-size: 8vw;
     text-align: center;
     word-break: break-word;
     width: 90vw;
     max-width: 1000px;
     margin-top: 0.5em;
- transform: rotate(-90deg);
+    transform: rotate(-90deg);
     transform-origin: center;
     white-space: pre-wrap;
 }
@@ -50,5 +50,6 @@ body {
     #output {
         font-size: 12vw;
         width: 98vw;
+        transform: none; /* Remove rotation on small screens */
     }
 }
