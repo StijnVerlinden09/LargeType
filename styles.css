@@ -36,20 +36,4 @@ body {
     width: 90vw;
     max-width: 1000px;
     margin-top: 0.5em;
-    transform: rotate(-90deg);
-    transform-origin: center;
-    white-space: pre-wrap;
-}
-
-/* Responsive adjustments */
-@media (max-width: 600px) {
-    #userInput {
-        font-size: 1.2em;
-        width: 90vw;
-    }
-    #output {
-        font-size: 12vw;
-        width: 98vw;
-        transform: none; /* Remove rotation on small screens */
-    }
 }
