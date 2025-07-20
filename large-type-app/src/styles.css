@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#output {
+    font-size: 16em;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}

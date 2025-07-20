@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        #output {
+            font-size: 16em;
+            margin-top: 20px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" name="" id="userInput" placeholder="Type something...">
+    <div id="output"></div>
+    <script>
+     const input = document.getElementById('userInput');
+        const largeText = document.getElementById('output');
+        input.addEventListener('change', () => {
+            console.log('Input changed:', input.value);
+            
+            largeText.innerHTML = input.value;
+        });
+    </script>
+</body>
+</html>
