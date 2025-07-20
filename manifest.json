@@ -1,0 +1,14 @@
+ {
+    "name": "LargeType",
+  "short_name": "LargeType",
+  "description": "An app that enlarges text for better readability.",
+  "start_url": "/Large",
+  "scope": "/LargeType",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "categories": ["entertainment", "games"],
+  "lang": "en",
+  "dir": "ltr",
+}
