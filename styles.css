@@ -19,7 +19,7 @@ body {
     color: #fff;
     margin-bottom: 2em;
     outline: none;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     width: 60vw;
     max-width: 600px;
     transition: background 0.2s;
@@ -30,7 +30,7 @@ body {
 }
 
 #output {
-    font-size: 8vw;
+    font-size: 10vw;
     text-align: center;
     word-break: break-word;
     width: 90vw;
@@ -41,14 +41,28 @@ body {
 
 /* Rotate only on small screens */
 @media (max-width: 600px) {
-    #userInput {
-        font-size: 1.2em;
-        width: 90vw;
-    }
-    #output {
-        font-size: 8vw;      /* Keep the same size */
-        width: 98vw;
+    .rotate-group {
         transform: rotate(-90deg);
         transform-origin: center;
+    }
+    #userInput {
+        padding: 1em 1.5em;
+        font-size: 2em;
+        border: none;
+        border-radius: 1em;
+        background: #333;
+        color: #fff;
+        margin-bottom: 2em;
+        outline: none;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+        width: 60vw;
+        max-width: 600px;
+        transition: background 0.2s;
+    }
+
+    #output {
+        font-size: 10vw;
+        /* Keep the same size */
+        width: 98vw;
     }
 }

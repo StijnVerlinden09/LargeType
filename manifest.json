@@ -1,5 +1,5 @@
  {
-    "name": "LargeType",
+  "name": "LargeType",
   "short_name": "LargeType",
   "description": "An app that enlarges text for better readability.",
   "start_url": "/Large",
